@@ -1,16 +1,12 @@
-/*
- * askSensors HTTPS Request
- * Description: Connect ESP8266 to AskSensors over HTTPS GET Request.
- *  Author: https://asksensors.com, 2018
- */
+
 
 // includes
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 
 // Wifi config
-const char* wifi_ssid = "..........";             // SSID
-const char* wifi_password = "..........";         // WIFI
+const char* wifi_ssid = "..........";             // SSID : Sowndar
+const char* wifi_password = "..........";         // WIFI : 12345678
 const unsigned int writeInterval = 25000;   // write interval (in ms)
 
 // ASKSENSORS config.
